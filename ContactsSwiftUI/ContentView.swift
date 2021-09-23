@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let persons = Person.getContactList()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack{
+                ContactList(person: persons)
+            }
+            .navigationTitle("Contact List")
+        }
     }
 }
 
