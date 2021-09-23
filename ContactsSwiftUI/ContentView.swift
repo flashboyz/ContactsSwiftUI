@@ -8,12 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var isPresented: Bool
     let persons = Person.getContactList()
     
     var body: some View {
         NavigationView {
-            VStack{
-                ContactList(person: persons)
+            TabView {
+                VStack{
+                    ContactList(person: persons)
+                }
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person.3.sequence.fill")
+                        Text("Contacts")
+                    }
+                }
+                NumbersView(isPresented: $isPresented, person: Person.getContactList())
+                    .tabItem{
+                        VStack {
+                            Image(systemName: "phone.circle.fill")
+                            Text("Numbers")
+                        }
+                    }
             }
             .navigationTitle("Contact List")
         }
@@ -22,6 +38,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(isPresented: .constant(false))
     }
 }

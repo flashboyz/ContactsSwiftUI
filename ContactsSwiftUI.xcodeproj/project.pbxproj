@@ -15,6 +15,7 @@
 		F826811526FCEBDF006105F1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826811426FCEBDF006105F1 /* Person.swift */; };
 		F826811926FD0613006105F1 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826811826FD0613006105F1 /* ContactList.swift */; };
 		F826811B26FD1625006105F1 /* DetailsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826811A26FD1625006105F1 /* DetailsInfo.swift */; };
+		F826811D26FD1993006105F1 /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826811C26FD1993006105F1 /* NumbersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F826811426FCEBDF006105F1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F826811826FD0613006105F1 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		F826811A26FD1625006105F1 /* DetailsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInfo.swift; sourceTree = "<group>"; };
+		F826811C26FD1993006105F1 /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F826811226FCD6E6006105F1 /* DataManager.swift */,
 				F826811426FCEBDF006105F1 /* Person.swift */,
 				F826810626FCD679006105F1 /* ContentView.swift */,
+				F826811C26FD1993006105F1 /* NumbersView.swift */,
 				F826811826FD0613006105F1 /* ContactList.swift */,
 				F826811A26FD1625006105F1 /* DetailsInfo.swift */,
 				F826810826FCD67A006105F1 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				F826811926FD0613006105F1 /* ContactList.swift in Sources */,
 				F826810726FCD679006105F1 /* ContentView.swift in Sources */,
 				F826811326FCD6E6006105F1 /* DataManager.swift in Sources */,
+				F826811D26FD1993006105F1 /* NumbersView.swift in Sources */,
 				F826811526FCEBDF006105F1 /* Person.swift in Sources */,
 				F826810526FCD679006105F1 /* ContactsSwiftUIApp.swift in Sources */,
 			);
